@@ -138,6 +138,11 @@ void Info(St& entity) {
 
 }
 
+void redact(St& entity) {
+	cout << "Redact of Dates" << endl;
+	enter(entity);
+}
+
 int main() 
 {
 	system("chcp 1251>>null");
@@ -159,6 +164,7 @@ int main()
 		cout << "Creature #" << i + 1 << ")" << endl;
 		Info(array[i]);
 	}
+
 
 	return 0;
 }
